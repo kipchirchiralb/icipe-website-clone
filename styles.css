@@ -2,6 +2,11 @@ body{
     margin: 0;
     font-family: sans-serif;
 }
+*{
+    box-sizing: border-box;
+    /* research on the border box property */
+    /* implement the numbers section */
+}
 #top-header{
     display: flex;
     gap: 50px;
@@ -49,6 +54,77 @@ body{
 
 /* main */
 
+/* intro section */
+#intro{
+    padding: 0px 70px;
+    position: relative;
+}
+#intro img{
+    width: 100%;
+}
+#intro div{
+    position: absolute;
+    bottom: 20px;
+    left: 90px;
+}
+#intro div p{
+    background-color: black;
+    color: white;
+    padding: 5px 10px;
+    margin: 0;
+    width: max-content;
+    padding-right: 30px;
+}
+#intro div a{
+    background-color: whitesmoke;
+    color: black;
+    padding: 8px 10px;
+    font-size: 26px;
+    text-decoration: none;
+    display: block;
+}
+#intro div a:hover{
+    text-decoration: underline #074880;
+}
+
+/* news section */
+
+#news{
+    display: flex;
+    width: 100%;
+    overflow: hidden;
+    padding: 0px 70px;
+}
+#news h2{
+    color: #074880;
+    font-size: 22px;
+    font-weight: normal;
+}
+#news a{
+    color: #074880;
+}
+#news img{
+    width: 270px;
+}
+#latest{
+    width: 70%;    
+}
+#awards{
+    width: 30%;
+}
+#scrollable{
+    display: flex;
+    overflow-x: scroll;
+    list-style: none;
+}
+.news-item{
+    padding: 10px;
+}
+
+/* numbers */
+#numbers{
+    height: 50vh;
+}
 
 /* footer */
 
